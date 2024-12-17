@@ -1,4 +1,6 @@
 <x-html>
+    <body class="bg-DefaultWhite">
+
     <x-navbar></x-navbar>
 
     <div class="relative">
@@ -33,7 +35,7 @@
                 <img src="{{ asset('assets/Image/anak.jpg') }}" alt="Kids Smiling"
                     class="rounded-t-lg object-cover w-full h-auto">
                 <div class="bg-DefaultGreen bg-opacity-30 text-black text-center p-4 rounded-b-lg mt-0">
-                    <p class="font-medium text-lg">
+                    <p class="font-medium text-lg opacity-60">
                         Uniting with foundations and orphanages, where every act of help creates a ripple of hope in
                         their little hearts and minds.
                     </p>
@@ -70,17 +72,17 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:gap-20 md:gap-10 gap-20 lg:grid-cols-4 place-items-center">
             <!-- Card 1 -->
             <div class="relative bg-white p-6 bg-cover bg-center rounded-lg shadow-lg hover:shadow-xl w-60 h-[40vh] group"
-                style="background-image: url('assets/Image/anak.jpg');">
+                style="background-image: url('assets/Image/anak1.jpg');">
                 <!-- Overlay -->
                 <div
                     class="absolute inset-0 bg-black bg-opacity-50 rounded-lg transition duration-300 group-hover:bg-teal-700 group-hover:bg-opacity-90">
                 </div>
 
                 <!-- Content -->
-                <div class="relative mt-4 mb-20 text-center z-10">
-                    <h2 class="text-xl font-bold text-white">We Inspire</h2>
-                    <p class="text-sm text-gray-200 mt-2">
-                        Sparking motivation and creativity to drive meaningful change.
+                <div class="relative mt-8 mb-20 text-center z-10">
+                    <h2 class="text-4xl font-bold text-white">We Empower</h2>
+                    <p class="text-base text-gray-200 mt-2">
+                        Giving others the strength and confidence to take action.
                     </p>
                 </div>
 
@@ -101,16 +103,16 @@
 
             <!-- Card 2 -->
             <div class="relative bg-white p-6 bg-cover bg-center rounded-lg shadow-lg hover:shadow-xl w-60 h-[40vh] group"
-                style="background-image: url('assets/Image/anak.jpg');">
+                style="background-image: url('assets/Image/anak1(2).jpg');">
                 <!-- Overlay -->
                 <div
                     class="absolute inset-0 bg-black bg-opacity-50 rounded-lg transition duration-300 group-hover:bg-teal-700 group-hover:bg-opacity-90">
                 </div>
 
                 <!-- Content -->
-                <div class="relative mt-4 mb-20 text-center z-10">
-                    <h2 class="text-xl font-bold text-white">We Inspire</h2>
-                    <p class="text-sm text-gray-200 mt-2">
+                <div class="relative mt-8 mb-20 text-center z-10">
+                    <h2 class="text-4xl font-bold text-white">We Inspire</h2>
+                    <p class="text-base text-gray-200 mt-2">
                         Sparking motivation and creativity to drive meaningful change.
                     </p>
                 </div>
@@ -135,17 +137,17 @@
 
             <!-- Card 3 -->
             <div class="relative bg-white p-6 bg-cover bg-center rounded-lg shadow-lg hover:shadow-xl w-60 h-[40vh] group"
-                style="background-image: url('assets/Image/anak.jpg');">
+                style="background-image: url('assets/Image/anak2.jpg');">
                 <!-- Overlay -->
                 <div
                     class="absolute inset-0 bg-black bg-opacity-50 rounded-lg transition duration-300 group-hover:bg-teal-700 group-hover:bg-opacity-90">
                 </div>
 
                 <!-- Content -->
-                <div class="relative mt-4 mb-20 text-center z-10">
-                    <h2 class="text-xl font-bold text-white">We Inspire</h2>
-                    <p class="text-sm text-gray-200 mt-2">
-                        Sparking motivation and creativity to drive meaningful change.
+                <div class="relative mt-8 mb-20 text-center z-10">
+                    <h2 class="text-4xl font-bold text-white">We Uplift</h2>
+                    <p class="text-base text-gray-200 mt-2">
+                        Lifting spirits and encouraging positivity in others.
                     </p>
                 </div>
 
@@ -167,17 +169,17 @@
 
             <!-- Card 4 -->
             <div class="relative bg-white p-6 bg-cover bg-center rounded-lg shadow-lg hover:shadow-xl w-60 h-[40vh] group"
-                style="background-image: url('assets/Image/anak.jpg');">
+                style="background-image: url('assets/Image/anak2(2).jpg');">
                 <!-- Overlay -->
                 <div
                     class="absolute inset-0 bg-black bg-opacity-50 rounded-lg transition duration-300 group-hover:bg-teal-700 group-hover:bg-opacity-90">
                 </div>
 
                 <!-- Content -->
-                <div class="relative mt-4 mb-20 text-center z-10">
-                    <h2 class="text-xl font-bold text-white">We Inspire</h2>
-                    <p class="text-sm text-gray-200 mt-2">
-                        Sparking motivation and creativity to drive meaningful change.
+                <div class="relative mt-8 mb-20 text-center z-10">
+                    <h2 class="text-4xl font-bold text-white">We Nourish</h2>
+                    <p class="text-base text-gray-200 mt-2">
+                        Fostering growth and well-being through care and support.
                     </p>
                 </div>
 
@@ -252,7 +254,7 @@
             <!-- Right Section: Text -->
             <div class="bg-[#2e645f] text-white p-8 md:p-10 flex flex-col justify-center w-full md:w-2/5 font-gotham">
                 <h2 class="text-6xl font-bold mb-16">Our impact to date</h2>
-                <p class="text-lg leading-relaxed opacity-80">
+                <p class="text-lg leading-relaxed opacity-80 font-brandonLight">
                     Plate It Forward has made a meaningful difference by distributing meals to foundations and
                     orphanages in
                     need. Through partnerships with generous restaurants, we’ve created a sustainable system that
@@ -276,53 +278,50 @@
             <div class="relative overflow-hidden bg-white rounded-lg shadow-md">
                 <div id="carousel-items" class="flex transition-transform duration-500">
                     <!-- Carousel Item 1 -->
-                    <div class="w-full flex-shrink-0 flex items-center justify-center p-24 font-gotham">
-                        <div class="flex items-center space-x-6">
-                            <div>
-                                <img src="{{ asset('assets/Image/rev1.jpeg') }}" alt="User photo"
-                                    class="w-70 h-70 rounded-lg object-cover" />
-                            </div>
-                            <div>
-                                <blockquote class="text-gray-800 text-lg font-medium mb-2">
-                                    "Kakak-kakak memberikan kami makanan yang tidak hanya mengenyangkan, tapi juga penuh
-                                    dengan kebaikan dari orang-orang yang peduli."
-                                </blockquote>
-                                <p class="text-gray-500">Tomas Roharini - 12 tahun</p>
-                            </div>
+                    <div
+                        class="w-full flex-shrink-0 flex md:flex-row flex-col items-center justify-center p-24 font-gotham space-y-6 md:space-y-0 md:space-x-8">
+                        <div class="mb-6 md:mb-0">
+                            <img src="{{ asset('assets/Image/rev1.jpeg') }}" alt="User photo"
+                                class="w-70 h-70 md:w-70 md:h-70 rounded-lg object-cover" />
+                        </div>
+                        <div>
+                            <blockquote class="text-gray-800 text-lg font-medium mb-2">
+                                "Kakak-kakak memberikan kami makanan yang tidak hanya mengenyangkan, tapi juga penuh
+                                dengan kebaikan dari orang-orang yang peduli."
+                            </blockquote>
+                            <p class="text-gray-500">Tomas Roharini - 12 tahun</p>
                         </div>
                     </div>
 
                     <!-- Carousel Item 2 -->
-                    <div class="w-full flex-shrink-0 flex items-center justify-center p-24">
-                        <div class="flex items-center space-x-6">
-                            <div>
-                                <img src="{{ asset('assets/Image/rev2.png') }}" alt="User photo"
-                                    class="w-100 h-100 rounded-lg object-cover" />
-                            </div>
-                            <div>
-                                <blockquote class="text-gray-800 text-lg font-medium mb-2">
-                                    "Kami merasa dihargai dan tidak lagi merasa kelaparan, karena makanan yang dibagikan
-                                    selalu tepat waktu dan berkualitas!"
-                                </blockquote>
-                                <p class="text-gray-500">Dina Sulyaningsih - 14 tahun</p>
-                            </div>
+                    <div
+                        class="w-full flex-shrink-0 flex md:flex-row flex-col items-center justify-center p-24 space-y-6 md:space-y-0 md:space-x-8">
+                        <div class="mb-6 md:mb-0">
+                            <img src="{{ asset('assets/Image/rev2.png') }}" alt="User photo"
+                                class="w-100 h-100 md:w-100 md:h-100 rounded-lg object-cover" />
+                        </div>
+                        <div>
+                            <blockquote class="text-gray-800 text-lg font-medium mb-2">
+                                "Kami merasa dihargai dan tidak lagi merasa kelaparan, karena makanan yang dibagikan
+                                selalu tepat waktu dan berkualitas!"
+                            </blockquote>
+                            <p class="text-gray-500">Dina Sulyaningsih - 14 tahun</p>
                         </div>
                     </div>
 
                     <!-- Carousel Item 3 -->
-                    <div class="w-full flex-shrink-0 flex items-center justify-center p-24">
-                        <div class="flex items-center space-x-6">
-                            <div>
-                                <img src="{{ asset('assets/Image/rev3.jpeg') }}" alt="User photo"
-                                    class="w-70 h-70 rounded-lg object-cover" />
-                            </div>
-                            <div>
-                                <blockquote class="text-gray-800 text-lg font-medium mb-2">
-                                    "Kami sangat bersyukur atas bantuan Plate It Forward yang membuat hidup kami lebih
-                                    baik dengan memberikan makanan yang kami butuhkan setiap hari."
-                                </blockquote>
-                                <p class="text-gray-500">Sri Odetta - 9 tahun</p>
-                            </div>
+                    <div
+                        class="w-full flex-shrink-0 flex md:flex-row flex-col items-center justify-center p-24 space-y-6 md:space-y-0 md:space-x-8">
+                        <div class="mb-6 md:mb-0">
+                            <img src="{{ asset('assets/Image/rev3.jpeg') }}" alt="User photo"
+                                class="w-70 h-70 md:w-70 md:h-70 rounded-lg object-cover" />
+                        </div>
+                        <div>
+                            <blockquote class="text-gray-800 text-lg font-medium mb-2">
+                                "Kami sangat bersyukur atas bantuan Plate It Forward yang membuat hidup kami lebih
+                                baik dengan memberikan makanan yang kami butuhkan setiap hari."
+                            </blockquote>
+                            <p class="text-gray-500">Sri Odetta - 9 tahun</p>
                         </div>
                     </div>
                 </div>
@@ -395,6 +394,8 @@
         </script>
     </div>
 
+
+
     <div class="flex items-center justify-center h-[70vh]">
         <div class="flex items-center bg-white p-10 rounded-lg shadow-md max-w-3xl">
             <!-- Left: Illustration -->
@@ -423,4 +424,6 @@
     </div>
 
     <x-footer></x-footer>
+            
+    </body>
 </x-html>

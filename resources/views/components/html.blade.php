@@ -907,17 +907,9 @@
             }
         </style>
     @endif
-    {{-- <style>
-        * {
-            z-index: 100;
-        }
-    </style> --}}
+
 </head>
 
-<body class="bg-DefaultWhite">
-
-    {{ $slot }}
-
-</body>
+{{ $slot }}
 
 </html>

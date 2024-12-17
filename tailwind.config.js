@@ -15,6 +15,7 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
                 'gotham': ['Gotham HTF'],
                 'brandon': ['BrandonGrotesque'],
+                'brandonLight': ['BrandonGrotesque-Light']
             },
             colors: {
                 'DefaultGreen': '#00615F',
@@ -22,7 +23,7 @@ export default {
                 'Teal': '#38b2ac'
             },
             maxWidth: {
-                '6.7xl': '74rem', // Add custom max-width value here
+                '6.7xl': '74rem',
             },
         },
     },

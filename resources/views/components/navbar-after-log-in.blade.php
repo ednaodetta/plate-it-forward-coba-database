@@ -22,7 +22,7 @@
                 <li><a href="#" class="block py-2 lg:py-0 hover:text-Teal">Restaurants</a></li>
                 <li><a href="#" class="block py-2 lg:py-0 hover:text-Teal">My Donations</a></li>
                 <li><a href="#" class="block py-2 pb-6 lg:py-0 hover:text-Teal">Contact Us</a></li>
-                <li><a href="#" class="block py-2 pb-6 lg:py-0 hover:text-Teal">Sign Up</a></li>
+                <li><a href="#" class="block py-2 pb-6 lg:py-0 hover:text-Teal">Profile</a></li>
             </ul>
         </nav>
     </div>
